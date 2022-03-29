@@ -1,0 +1,29 @@
+.packages-number{
+    white-space: break-spaces;
+}
+
+.flex-column {
+    display: inline-flex;
+    position: absolute;
+    left: 0;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.content{
+    display: contents;
+}
+
+.invoice-details-table{
+    width:100%;
+    margin-bottom: 48px;
+    margin-top: 48px;
+}
+
+.invoice-details-table th:last-child, .invoice-details-table td:last-child {
+    background: #07df99;
+}
